@@ -10,7 +10,7 @@ public class DoWhile {
         String texto = "";
 
         do{ 
-            System.out.print("Digite as palavras magicas: ");
+            System.out.print("Digite a palavra: ");
             texto = entrada.nextLine();
 
         }while(!texto.equalsIgnoreCase("Por favor"));
